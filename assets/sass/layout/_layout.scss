@@ -1,0 +1,11 @@
+@import "benefit/*.png";
+@include all-benefit-sprites;
+
+.mobile {
+	background-image: url("../img/mobile.png");
+	width: 470px;
+	height: 360px;
+}
+.benefit {
+	width: 230px;
+}

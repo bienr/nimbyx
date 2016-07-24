@@ -1,0 +1,19 @@
+.benefit-sprite, .benefit-bulb, .benefit-graph, .benefit-phone { background-image: url('../img/benefit-s35b316a7ce.png'); background-repeat: no-repeat; }
+
+.benefit-bulb { background-position: 0 0; }
+
+.benefit-graph { background-position: 0 -57px; }
+
+.benefit-phone { background-position: 0 -114px; }
+
+.mobile { background-image: url("../img/mobile.png"); width: 470px; height: 360px; }
+
+.benefit { width: 230px; }
+
+.benefit-sprite, .benefit-bulb, .benefit-graph, .benefit-phone { height: 57px; width: 57px; }
+
+.d-iblock { display: inline-block; }
+
+.dark { background-color: #333743; }
+.dark h4 { color: #fff; }
+.dark p { color: #9297a3; }
