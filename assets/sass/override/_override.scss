@@ -1,5 +1,67 @@
 
 .benefit-sprite {
-	height: 57px;
-	width: 57px;
-} 
+	height: 48px;
+	width: 48px;
+	margin-right: 20px;
+	background-size: 100% auto;
+}
+.navbar-header {
+	margin-top: 5px;
+}
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+.navbar {
+	ul {
+		li {
+			padding: 21px 18px 15px 15px;
+			a {
+				font-family: "Aileron Light";
+				letter-spacing: 0.5px;
+				color: #4a4a4a;
+				padding: 0 0 8px 0;
+				text-transform: uppercase;
+				outline: none;
+			}
+			&.active a {
+				background-color: #fff !important;
+				border-bottom: 1px solid #35b2e9;
+			}
+		}
+	}
+	.navbar-toggle {
+		border: none;
+		margin-bottom: 0;
+		margin-right: 15px;
+		margin-top: 14px;
+	}
+	.navbar-collapse {
+		border-top: none;
+	}
+}
+.form-control {
+	@include box-shadow(none);
+	font-family: "Aileron SemiBold";
+	padding: 15px;
+	height: 43px;
+	border: 1px solid #8b8b8b;
+	&:focus {
+		@include box-shadow(none);
+	}
+}
+.btn-success {
+	background-color: #b8d309;
+	border-color: #b8d309;	
+	padding: 5px 15px;
+	height: 43px;
+	&:hover, &:active, &:visited {
+		background-color: #9cb308 !important;
+		border-color: #9cb308;
+	}
+}
+.desktop-services-sprite {
+	display: block;
+	height: 60px;
+	width: 60px;
+}

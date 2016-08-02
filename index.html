@@ -14,59 +14,59 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		
-		<section class="container">
+		<section class="atf container">
 			<nav class="navbar navbar-default">
 			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				  <a class="navbar-brand" href="#">Brand</a>
+				  <a class="navbar-brand" href="#">
+					<img src="assets/img/logo.png" alt="Nimbyx logo" />
+				  </a>
 				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="collapse navbar-collapse" id="navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a href="#">Services</a></li>
 				  </ul>
-				</div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
+				</div>
+			  </div>
 			</nav>
 			<div class="row">
-				<div class="col-md-6"></div>
-				<div class="col-xs-12 col-md-6">
-					<h1>Lorem ipsum dolor</h1>
-					<p>lorem impum dolor sit amet interdum</p>
+				<div class="col-md-6 col-sm-2"></div>
+				<div class="col-xs-12 col-md-6 col-sm-8">
+					<h1 class="heading">Lorem Ipsum Dolor</h1>
+					<p class="subheading">lorem impum dolor sit amet interdum</p>
 					<form>
 						<div class="form-group">
 							<div class="row">
-								<div class="col-xs-12 col-sm-6">
-									<input type="email" class="form-control" id="email" placeholder="Email Address" />
+								<div class="col-xs-12 col-sm-6 xs-wrapper-center p-right-0">
+									<input type="email" class="form-control email" id="email" placeholder="Email Address" />
 								</div>
-								<div class="col-xs-12 col-sm-6">
-									<input type="submit" class="btn btn-primary" value="Sign Up" />
+								<div class="col-xs-12 col-sm-6 xs-wrapper-center">
+									<input type="submit" class="btn btn-success signup" value="Sign Up" />
 								</div>
 							</div>
 						</div>
 					</form>
 				</div>
+				<div class="col-sm-2"></div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-md-6">
-					<div class="mobile"></div>
+				<div class="col-xs-12 col-md-6 xs-mobile-center">
+					<span class="mobile-cover"></span>
 				</div>
 			</div>
 		</section>
-		<section class="dark">
-			<div class="container">
-				<div class="row">
+		<section class="benefits dark">
+			<div class="container xs-wrapper-center">
+				<div class="row xs-d-iblock benefit-wrapper">
 					<div class="col-xs-12 col-sm-4">
 						<span class="pull-left benefit-sprite benefit-phone d-iblock"></span>
 						<div class="pull-left d-iblock benefit">
@@ -91,30 +91,109 @@
 				</div>
 			</div>
 		</section>
-		<section class="container">	
-			<div class="row">
-				<div class="col-md-4">Our Services</div>
-				<div class="col-md-8">
-					<div class="row">
-						<div class="col-xs-12">
-							<span class=""></span>
-							<h4>Products</h4>
-							<p>Nulla faucibus eu dui elementum porttitor. Aliquam sollicitudin tjusto sed laoreet tempus. Praesent eleifend non est non bibendum.</p>
-							<button class="btn btn-primary">Learn More</button>
+		<section class="features grey">	
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4"><h1>OUR <br/><span class="blue">Services</span></h1></div>
+					<div class="col-md-8 feature-wrapper">
+						<div class="row">
+							<div class="col-xs-12 feature-container">
+								<div class="feature-icons"><span class="desktop-services-graph"></span></div>
+								<div class="feature-text">
+									<h4>Product</h4>
+									<p>Nulla faucibus eu dui elementum porttitor. Aliquam sollicitudin tjusto sed laoreet tempus. Praesent eleifend non est non bibendum.</p>								
+								</div>
+								<div class="feature-button">
+									<button class="btn btn-default">Learn More</button>
+								</div>
+							</div>
+							<div class="col-xs-12 feature-container">
+								<div class="feature-icons"><span class="desktop-services-cart"></span></div>
+								<div class="feature-text">
+									<h4>Services</h4>
+									<p>Nulla faucibus eu dui elementum porttitor. Aliquam sollicitudin tjusto sed laoreet tempus. Praesent eleifend non est non bibendum.</p>								
+								</div>
+								<div class="feature-button">
+									<button class="btn btn-default">Learn More</button>
+								</div>
+							</div>
+							<div class="col-xs-12 feature-container">
+								<div class="feature-icons"><span class="desktop-services-gift"></span></div>
+								<div class="feature-text">
+									<h4>Products</h4>
+									<p>Nulla faucibus eu dui elementum porttitor. Aliquam sollicitudin tjusto sed laoreet tempus. Praesent eleifend non est non bibendum.</p>								
+								</div>
+								<div class="feature-button">
+									<button class="btn btn-default">Learn More</button>
+								</div>
+							</div>
 						</div>
-						<div class="col-xs-12">
-							<span class=""></span>
-							<h4>Services</h4>
-							<p>Nulla faucibus eu dui elementum porttitor. Aliquam sollicitudin tjusto sed laoreet tempus. Praesent eleifend non est non bibendum.</p>
-							<button class="btn btn-primary">Learn More</button>
-						</div>
-						<div class="col-xs-12">
-							<span class=""></span>
-							<h4>Benefit</h4>
-							<p>Nulla faucibus eu dui elementum porttitor. Aliquam sollicitudin tjusto sed laoreet tempus. Praesent eleifend non est non bibendum.</p>
-							<button class="btn btn-primary">Learn More</button></div>
 					</div>
 				</div>
+			</div>
+			<div class="img-ipad"></div>
+		</section>
+		<section class="container hide">	
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+          <div class="first-slide slides"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+          <div class="second-slide slides"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="third-slide slides"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+			
+		</section>
+		<section class="container hide">	
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<h2>Lorem ipsum dolor sit</h2>
+					<h5>Ut dodales quis ocri libero alareet maf</h5>
+					<input type="email" placeholder="Email Address" class="form-control"/>
+					<input type="submit" value="Sign Up" class="btn btn-success"/>
+				</div>
+				<div class="col-md-3"></div>
 			</div>
 		</section>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
