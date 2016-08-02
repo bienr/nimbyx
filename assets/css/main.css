@@ -1,4 +1,29 @@
+@font-face { font-family: "Aileron Black"; src: url('../fonts/Aileron-Black.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Black Italic"; src: url('../fonts/Aileron-BlackItalic.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Heavy"; src: url('../fonts/Aileron-Heavy.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Heavy Italic"; src: url('../fonts/Aileron-HeavyItalic.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Bold"; src: url('../fonts/Aileron-Bold.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Bold Italic"; src: url('../fonts/Aileron-BoldItalic.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Italic"; src: url('../fonts/Aileron-Italic.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Light"; src: url('../fonts/Aileron-Light.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron LightItalic"; src: url('../fonts/Aileron-LightItalic.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Regular"; src: url('../fonts/Aileron-Regular.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Semibold"; src: url('../fonts/Aileron-SemiBold.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Thin"; src: url('../fonts/Aileron-Thin.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Thin Italic"; src: url('../fonts/Aileron-ThinItalic.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Ultra Light"; src: url('../fonts/Aileron-UltraLight.otf?1469330958') format('opentype'); }
+@font-face { font-family: "Aileron Ultra Light Italic"; src: url('../fonts/Aileron-UltraLightItalic.otf?1469330958') format('opentype'); }
+.d-iblock { display: inline-block; }
+
+.dark { background-color: #333743; }
+.dark h4 { color: #fff; }
+.dark p { color: #9297a3; }
+
+.grey { background-color: #fafbfa; }
+
 .benefit-sprite, .benefit-bulb, .benefit-graph, .benefit-phone { background-image: url('../img/benefit-s35b316a7ce.png'); background-repeat: no-repeat; }
+
+.desktop-services-sprite, .desktop-services-cart, .desktop-services-gift, .desktop-services-graph { background-image: url('../img/desktop-services-s2416b77aa5.png'); background-repeat: no-repeat; }
 
 .benefit-bulb { background-position: 0 0; }
 
@@ -6,14 +31,96 @@
 
 .benefit-phone { background-position: 0 -114px; }
 
-.mobile { background-image: url("../img/mobile.png"); width: 470px; height: 360px; }
+.desktop-services-cart { background-position: 0 0; }
 
-.benefit { width: 230px; }
+.desktop-services-gift { background-position: 0 -60px; }
 
-.benefit-sprite, .benefit-bulb, .benefit-graph, .benefit-phone { height: 57px; width: 57px; }
+.desktop-services-graph { background-position: 0 -120px; }
 
-.d-iblock { display: inline-block; }
+* { font-family: "Aileron Regular"; color: #4a4a4a; }
 
-.dark { background-color: #333743; }
-.dark h4 { color: #fff; }
-.dark p { color: #9297a3; }
+.atf h1.heading { font-family: "Aileron Ultra Light"; font-size: 54px; margin-top: 170px; }
+.atf .subheading { font-family: "Aileron Light"; font-size: 16px; letter-spacing: 0.8px; }
+.atf .mobile-cover { background-image: url("../img/mobile.png"); background-repeat: no-repeat; background-position: 50%; background-size: contain; margin-left: auto; margin-right: auto; position: relative; width: 100%; max-width: 470px; }
+
+.benefits { margin-top: -5px; padding: 50px 0; }
+.benefits .benefit-wrapper { padding: 0 20px; margin: 0 auto; }
+.benefits h4 { margin-top: 0; }
+
+.features { padding: 50px 0; }
+.features h1 { margin-top: 0; color: #4a4a4a; font-size: 37px; font-family: "Aileron Ultra Light"; }
+.features h1 .blue { font-family: "Aileron Bold"; font-size: 50px; color: #35b2e9; text-transform: uppercase; letter-spacing: 1px; }
+.features .feature-wrapper { padding-top: 30px; }
+.features .feature-container { padding: 20px; cursor: pointer; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -moz-transition-property: box-shadow; -o-transition-property: box-shadow; -webkit-transition-property: box-shadow; transition-property: box-shadow; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; transition-duration: 0.5s; }
+.features .feature-container:hover { background-color: #fff; -moz-box-shadow: rgba(170, 170, 170, 0.4) 0 0 25px; -webkit-box-shadow: rgba(170, 170, 170, 0.4) 0 0 25px; box-shadow: rgba(170, 170, 170, 0.4) 0 0 25px; }
+.features .feature-icons, .features .feature-text, .features .feature-text { float: left; }
+.features .feature-icons { padding-top: 15px; }
+.features .feature-text { width: 375px; padding: 0 15px; }
+.features .feature-text h4 { font-size: 17px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 0; }
+.features .feature-text p { font-size: 13px; margin-bottom: 0; }
+.features .feature-button { padding-top: 25px; }
+.features .feature-button .btn { width: 140px; }
+
+.benefit-sprite, .benefit-bulb, .benefit-graph, .benefit-phone { height: 48px; width: 48px; margin-right: 20px; background-size: 100% auto; }
+
+.navbar-header { margin-top: 5px; }
+
+.navbar-default { background-color: #fff; border: none; }
+
+.navbar ul li { padding: 21px 18px 15px 15px; }
+.navbar ul li a { font-family: "Aileron Light"; letter-spacing: 0.5px; color: #4a4a4a; padding: 0 0 8px 0; text-transform: uppercase; outline: none; }
+.navbar ul li.active a { background-color: #fff !important; border-bottom: 1px solid #35b2e9; }
+.navbar .navbar-toggle { border: none; margin-bottom: 0; margin-right: 15px; margin-top: 14px; }
+.navbar .navbar-collapse { border-top: none; }
+
+.form-control { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; font-family: "Aileron SemiBold"; padding: 15px; height: 43px; border: 1px solid #8b8b8b; }
+.form-control:focus { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.btn-success { background-color: #b8d309; border-color: #b8d309; padding: 5px 15px; height: 43px; }
+.btn-success:hover, .btn-success:active, .btn-success:visited { background-color: #9cb308 !important; border-color: #9cb308; }
+
+.desktop-services-sprite, .desktop-services-cart, .desktop-services-gift, .desktop-services-graph { display: block; height: 60px; width: 60px; }
+
+/* iPhones */
+@media only screen and (min-device-width: 320px) { .atf .mobile-cover { min-height: 223px !important; } }
+@media only screen and (max-width: 767px) { .benefits { padding: 40px 0; }
+  .benefits .benefit-wrapper { padding: 0; }
+  .benefits .xs-mobile-center { width: 70vw; }
+  .benefits .benefit { width: 50vw; }
+  .benefits .benefit-sprite, .benefits .benefit-bulb, .benefits .benefit-graph, .benefits .benefit-phone { margin-right: 15px; }
+  .benefits .benefit-wrapper > .col-xs-12 { padding-right: 0; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 767px) { .navbar-nav { margin-top: 18px; margin-bottom: 0; }
+  .navbar ul li { padding: 15px 20px 0 15px; }
+  .xs-d-iblock { display: inline-block; }
+  .atf h1.heading { font-family: "Aileron Light"; font-size: 34px; color: #7c828f; text-align: center; margin-top: 60px; }
+  .atf .subheading { text-align: center; color: #7c828f; margin-bottom: 25px !important; }
+  .atf .xs-wrapper-center, .atf .xs-mobile-center { text-align: center; }
+  .atf .email, .atf .signup { display: inline-block; width: 290px; margin-bottom: 9px; }
+  .atf .mobile-cover { display: inline-block; min-height: 270px; }
+  .benefits { padding: 40px 0 20px; }
+  .benefits .xs-mobile-center { width: 70vw; }
+  .benefits .benefit-sprite, .benefits .benefit-bulb, .benefits .benefit-graph, .benefits .benefit-phone { height: 57px; width: 57px; }
+  .benefits .benefit { width: 60vw; }
+  .benefits .benefit h4 { font-family: "Aileron Bold"; font-size: 18px; }
+  .benefits .benefit p { margin-bottom: 20px; } }
+@media only screen and (min-width: 500px) and (max-width: 767px) { .benefits .benefit { width: 70vw; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) { .atf h1.heading { margin-top: 120px; }
+  .atf .mobile-cover { display: inline-block; min-height: 300px; }
+  .atf .xs-atf-wrapper-center { padding-right: 0; }
+  .atf .p-right-0 { padding-right: 0 !important; }
+  .atf .signup { width: 170px; }
+  .benefits { padding-bottom: 40px; }
+  .benefit-wrapper { text-align: center; }
+  .benefit-wrapper .benefit-sprite, .benefit-wrapper .benefit-bulb, .benefit-wrapper .benefit-graph, .benefit-wrapper .benefit-phone { display: inline-block !important; margin-bottom: 10px; }
+  .benefit-wrapper .benefit { text-align: left; }
+  .benefit-wrapper .benefit h4 { font-family: "Aileron Light"; font-size: 15px; }
+  .benefit-wrapper .benefit p { font-family: "Aileron SemiBold"; font-size: 13px; }
+  .benefit-wrapper .benefit-phone { background-position: 0 -96px !important; }
+  .benefit-wrapper .benefit-graph { background-position: 0 -48px !important; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) { .atf .mobile-cover { width: 470px; height: 360px; }
+  .benefit { width: 15vw; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) { .benefit { width: 240px; } }
