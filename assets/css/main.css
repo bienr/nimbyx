@@ -19,7 +19,7 @@
 .dark h4 { color: #fff; }
 .dark p { color: #9297a3; }
 
-.grey { background-color: #fafbfa; }
+.grey { background-color: #f7f8f6; }
 
 .benefit-sprite, .benefit-bulb, .benefit-graph, .benefit-phone { background-image: url('../img/benefit-s35b316a7ce.png'); background-repeat: no-repeat; }
 
@@ -60,6 +60,9 @@
 .features .feature-text p { font-size: 13px; margin-bottom: 0; }
 .features .feature-button { padding-top: 25px; }
 .features .feature-button .btn { width: 140px; }
+.features .img-ipad { width: 350px; height: 337px; position: absolute; margin-top: -286px; background-image: url("../img/ipad.jpg"); }
+
+.carousel .slides { height: 500px; }
 
 .benefit-sprite, .benefit-bulb, .benefit-graph, .benefit-phone { height: 48px; width: 48px; margin-right: 20px; background-size: 100% auto; }
 
@@ -103,7 +106,8 @@
   .benefits .benefit-sprite, .benefits .benefit-bulb, .benefits .benefit-graph, .benefits .benefit-phone { height: 57px; width: 57px; }
   .benefits .benefit { width: 60vw; }
   .benefits .benefit h4 { font-family: "Aileron Bold"; font-size: 18px; }
-  .benefits .benefit p { margin-bottom: 20px; } }
+  .benefits .benefit p { margin-bottom: 20px; }
+  .img-ipad { display: none; } }
 @media only screen and (min-width: 500px) and (max-width: 767px) { .benefits .benefit { width: 70vw; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) { .atf h1.heading { margin-top: 120px; }
@@ -118,9 +122,11 @@
   .benefit-wrapper .benefit h4 { font-family: "Aileron Light"; font-size: 15px; }
   .benefit-wrapper .benefit p { font-family: "Aileron SemiBold"; font-size: 13px; }
   .benefit-wrapper .benefit-phone { background-position: 0 -96px !important; }
-  .benefit-wrapper .benefit-graph { background-position: 0 -48px !important; } }
+  .benefit-wrapper .benefit-graph { background-position: 0 -48px !important; }
+  .img-ipad { display: none; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) { .atf .mobile-cover { width: 470px; height: 360px; }
-  .benefit { width: 15vw; } }
+  .benefit { width: 15vw; }
+  .img-ipad { display: block; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) { .benefit { width: 240px; } }

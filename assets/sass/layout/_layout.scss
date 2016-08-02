@@ -96,4 +96,16 @@
 			width: 140px;
 		}
 	}
+	.img-ipad {
+		width: 350px;
+		height: 337px;
+		position: absolute;
+		margin-top: -286px;
+		background-image: url("../img/ipad.jpg");
+	}
+}
+.carousel {
+	.slides {
+		height: 500px;
+	}
 }
